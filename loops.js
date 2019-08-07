@@ -27,10 +27,9 @@ function doWhile(num) {
   }
   
   do {
-    incrementVariable() < num
     console.log("I run once regardless")
   } 
-  while (i < 5)
+  while (incrementVariable() < num)
 
   return array
 }
